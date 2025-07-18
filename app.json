@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Profile Setup",
+    "slug": "assignmentnativeReact",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.waynoway2021.assignmentnativeReact"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app accesses your camera to take photo to your favourite places.",
+          "photosPermission": "The app accesses your photos to upload your favourite places."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ed2c784e-c409-4262-be71-887e6d50b3b2"
+      }
+    }
+  }
+}
