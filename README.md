@@ -1,10 +1,8 @@
-# React Navtive
+# React Native
 
-#  A Linktree Application
+#  Android Photo Crop App using React Native
 
 ## Overview
-A modern Linktree alternative built with React + Vite, featuring dynamic link management, customizable themes, and click analytics
-
 🚀 Features
 User can take photo or select photo from gallery
     
